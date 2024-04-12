@@ -36,11 +36,6 @@ app.get('/api/data', (req, res) => {
 app.get('/', (req,res) => {
   res.sendFile(process.cwd()+"/my-app/build/index.html");
 });
-
-
-
-
-
 app.listen(port, () => {
     console.log(`Server listening on the port::${port}`);
 });
