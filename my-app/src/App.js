@@ -18,9 +18,8 @@ function App() {
       .finally(() => {
         setLoading(false);
       });
-  }, []); 
-
-
+  }, []);
+  
   return (
     <div className="App">
       <h1>Your React App</h1>
